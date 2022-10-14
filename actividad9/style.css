@@ -1,0 +1,19 @@
+#parte1 {
+    float: left;
+    width: 20%;
+}
+
+#parte2 {
+    float: right;
+    width: 80%;
+}
+
+#parte3 {
+    float: right;
+    width: 80%;
+}
+
+.columna {
+    width: 33.33%;
+    float: left;
+}
