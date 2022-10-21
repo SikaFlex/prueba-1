@@ -1,3 +1,4 @@
+
 .container1{
     float: left;
     width: 70%;
@@ -41,6 +42,16 @@
     
    
 }
+@media(max-width:640px){
+    .container1{
+     width:100%;
+    }
+    .container2{
+     width:100%;
+ 
+    }
+ 
+ }
 #encabezado{
     color: black;
     text-align:left;
