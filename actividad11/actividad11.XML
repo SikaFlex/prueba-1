@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<!DOCTYPE locs [
+    <!ELEMENT locs (loc+)>
+    <!ELEMENT loc (descripcion)>
+    <!ELEMENT descripcion (fecha)>
+    <!ATTLIST descripcion nombre CDATA #REQUIRED>
+    <!ELEMENT fecha (dia,mes,año)>
+    <!ELEMENT dia (#PCDATA)>
+    <!ELEMENT mes (#PCDATA)>
+    <!ELEMENT año (#PCDATA)>
+]>
+
+<locs>
+
+    <loc>
+        <descripcion nombre="Descripcion de cada echo">
+        <fecha>
+            <dia>Dia</dia>
+            <mes>Mes</mes>
+            <año>Año</año>
+        </fecha>
+        </descripcion>
+    </loc>
+
+    <loc>
+        <descripcion nombre="IMB da conocer PC ">
+        <fecha>
+            <dia>12</dia>
+            <mes>8</mes>
+            <año>1981</año>
+        </fecha>
+        </descripcion>
+    </loc>
+
+    <loc>
+        <descripcion nombre="Se funda Google">
+        <fecha>
+            <dia>4</dia>
+            <mes>9</mes>
+            <año>1998</año>
+        </fecha>
+        </descripcion>
+    </loc>
+
+    <loc>
+        <descripcion nombre="Se funda Facebook">
+        <fecha>
+            <dia>4</dia>
+            <mes>2</mes>
+            <año>2004</año>
+        </fecha>
+        </descripcion>
+    </loc>
+
+</locs>
