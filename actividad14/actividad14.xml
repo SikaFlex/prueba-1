@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<arboles>
+    <Arce>
+        <nombre>Arce de Montpellier, Arce menor</nombre>
+        <vegetacion>Caducifolio</vegetacion>
+        <alt>De 6 a 10 metros</alt>
+        <forma>Copa esférica. Tronco principal recto con bifurcaciones. Ramaje colgante</forma>
+        <ColorPrim>Haz verde brillante, envés verde blanquecino</ColorPrim>
+        <resist>Heladas fuertes (hasta -15ºC)</resist>
+    </Arce>
+
+    <olea>
+        <nombre>Olivo</nombre>
+        <vegetacion>Perenne</vegetacion>
+        <alt>De 8 a 15 metros</alt>
+        <forma>Copa irregular. Tronco principal irregular con bifurcaciones.</forma>
+    </olea>
+
+    <remaje>
+        <ColorPrim>Haz verde oscuro, envés verde plateado</ColorPrim>
+        <resist>Heladas fuertes (hasta -10ºC)</resist>
+    </remaje>
+
+    <platanus>
+        <nombre>Platano</nombre>
+        <vegetacion>Caducifolio</vegetacion>
+        <alt>De 20 a 25 metros</alt>
+        <forma>Copa ovoidal. Tronco principal recto. Ramaje expandido</forma>
+        <ColorPrim>Haz verde medio, enves verde claro</ColorPrim>
+        <ColorOto>Ocre</ColorOto>
+        <resist>Heladas fuertes (hasta -20ºC)</resist>
+    </platanus>
+
+    <Quercus>
+        <nombre>Encina</nombre>
+        <vegetacion>Perenne</vegetacion>
+        <alt>En torno a 25 metros</alt>
+        <forma>Copa esférica o elíptica irregular. Tronco principal recto. Ramaje tortuoso</forma>
+        <ColorPrim> Plateado en hojas jóvenes. En hojas antiguas, haz verde oscuro, envés plateado</ColorPrim>
+        <resist>Heladas fuertes (hasta -15ºC)</resist>
+    </Quercus>
+
+
+</arboles>
