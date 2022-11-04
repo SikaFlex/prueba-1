@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mensaje [
+    <!ELEMENT mensaje (remite,destinatario,asunto,texto)>
+    <!ELEMENT remite (nombre,email)>
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT email (#PCDATA)>
+    <!ELEMENT destinatario (nombre,email)>
+    <!ELEMENT asunto (#PCDATA)>
+    <!ELEMENT parrafo (#PCDATA)>
+    <!ELEMENT otros (#PCDATA)>
+    <!ELEMENT texto (parrafo,otros)>
+   
+]>
 <mensaje>
 <remite>
-    <nomnbre>Alfredo Reino</nomnbre>
+    <nombre>Alfredo Reino</nombre>
     <email>alf@ibium.com</email>
 </remite>
 <destinatario>
