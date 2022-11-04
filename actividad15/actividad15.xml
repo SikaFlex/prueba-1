@@ -1,6 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE factura [
+    <!ELEMENT factura (NumFact,DatEmp,DatClient,DatFactura)>
+    <!ELEMENT NumFact (#PCDATA)>
+    <!ELEMENT DatEmp (NomEmp,calle,poblacion,cif,tel,fax,DatAlbaran)>
+    <!ELEMENT NomEmp (#PCDATA)>
+    <!ELEMENT calle (#PCDATA)>
+    <!ELEMENT poblacion (#PCDATA)>
+    <!ELEMENT cif (#PCDATA)>
+    <!ELEMENT tel (#PCDATA)>
+    <!ELEMENT fax (#PCDATA)>
+    <!ELEMENT DatAlbaran (fecha,pedido,FormPago)>
+    <!ELEMENT fecha (#PCDATA)>
+    <!ELEMENT pedido (#PCDATA)>
+    <!ELEMENT FormPago (#PCDATA)>
+    <!ELEMENT DatClient (NumClient,NomClient,DireccionEnv,poblacion,CP,provincia)>
+    <!ELEMENT NumClient (#PCDATA)>
+    <!ELEMENT NomClient (#PCDATA)>
+    <!ELEMENT DireccionEnv (#PCDATA)>
+    <!ELEMENT CP (#PCDATA)>
+    <!ELEMENT provincia (#PCDATA)>
+    <!ELEMENT Datfactura (dat+,total)>
+    <!ELEMENT dat (ref,desc,cant,prec,iva,imp)>
+    <!ELEMENT ref (#PCDATA)>
+    <!ELEMENT desc (#PCDATA)>
+    <!ELEMENT cant (#PCDATA)>
+    <!ELEMENT prec (#PCDATA)>
+    <!ELEMENT iva (#PCDATA)>
+    <!ELEMENT imp (#PCDATA)>
+    <!ELEMENT total (base,iva,C_iva,Total)>
+    <!ELEMENT base (#PCDATA)>
+    <!ELEMENT C_iva (#PCDATA)>
+    <!ELEMENT Total (#PCDATA)>
+]>
 <factura>
-    <Numfact>FACTURA nº999</Numfact>
+    <NumFact>FACTURA nº999</NumFact>
     <DatEmp>
         <NomEmp>Equipos Digitales S.L</NomEmp>
         <calle>Av.Valladolid</calle>
@@ -64,7 +97,7 @@
             <base>970.00</base>
             <iva>16.0</iva>
             <C_iva>155.20 eur</C_iva>
-            <total>TOTAL FACTURA: 1125,20 eur</total>
+            <Total>TOTAL FACTURA: 1125,20 eur</Total>
         </total>
 
 
