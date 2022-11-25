@@ -14,4 +14,4 @@
                 <xs:attribute name="hora" type="time" />
             </xs:complexType>
     </xs:complexType>
-</xs:element></xs:element>
+</xs:element>
