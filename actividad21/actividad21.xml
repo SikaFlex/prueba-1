@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="XSLactividad21.xsl" type="text/xsl"?>
+<!DOCTYPE locs SYSTEM "actividad21.dtd">
+<locs>
+
+    <loc>
+        <descripcion nombre="Descripcion de cada echo">
+            <fecha>
+                <dia>Dia</dia>
+                <mes>Mes</mes>
+                <año>Año</año>
+            </fecha>
+        </descripcion>
+    </loc>
+
+    <loc>
+        <descripcion nombre="IMB da conocer PC ">
+            <fecha>
+                <dia>12</dia>
+                <mes>8</mes>
+                <año>1981</año>
+            </fecha>
+        </descripcion>
+    </loc>
+
+    <loc>
+        <descripcion nombre="Se funda Google">
+            <fecha>
+                <dia>4</dia>
+                <mes>9</mes>
+                <año>1998</año>
+            </fecha>
+        </descripcion>
+    </loc>
+
+    <loc>
+        <descripcion nombre="Se funda Facebook">
+            <fecha>
+                <dia>4</dia>
+                <mes>2</mes>
+                <año>2004</año>
+            </fecha>
+        </descripcion>
+    </loc>
+
+</locs>

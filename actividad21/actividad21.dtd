@@ -1,0 +1,10 @@
+
+    <!ELEMENT locs (loc+)>
+    <!ELEMENT loc (descripcion)>
+    <!ELEMENT descripcion (fecha)>
+    <!ATTLIST descripcion nombre CDATA #REQUIRED>
+    <!ELEMENT fecha (dia,mes,año)>
+    <!ELEMENT dia (#PCDATA)>
+    <!ELEMENT mes (#PCDATA)>
+    <!ELEMENT año (#PCDATA)>
+
