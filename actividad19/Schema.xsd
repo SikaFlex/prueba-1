@@ -3,7 +3,7 @@
     <xs:element name="lista_de_notas">
         <xs:complexType>
             <xs:sequence>
-                <xs:element name="nota">
+                <xs:element name="nota" maxOccurs="unbounded">
                     <xs:complexType>
                         <xs:sequence>
                             <xs:element name="para" type="xs:string" />
@@ -17,5 +17,6 @@
                 </xs:element>
             </xs:sequence>
         </xs:complexType>
+
     </xs:element>
 </xs:schema>

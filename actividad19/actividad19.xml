@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
-<lista_de_notas xmlns:xsi="http://www.w3.org/2001/XMLSchema"
-    xsi:noNamespaceSchemaLocation="Schema.xsd">
+<?xml-model href="schema.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<lista_de_notas>
 <nota>
 <para>Pedro</para>
 <de>Laura</de>
