@@ -1,0 +1,8 @@
+<!ELEMENT Oferta (cancion+)>
+<!ELEMENT cancion (titulo,artista,pais,disc,precio,año)>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT artista (#PCDATA)>
+<!ELEMENT pais (#PCDATA)>
+<!ELEMENT disc (#PCDATA)>
+<!ELEMENT precio (#PCDATA)>
+<!ELEMENT año (#PCDATA)>

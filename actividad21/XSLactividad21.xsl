@@ -15,19 +15,22 @@
                         <th>Año</th>
                     </tr>
                     <xsl:for-each select="locs/loc">
-                    <tr>
-                        <th>
-                            <xsl:value-of select="@nombre"/>
-                        </th>
-                        
-                        <td><xsl:value-of select="fecha/dia"></xsl:value-of></td>
-                        <td><xsl:value-of select="fecha/mes"></xsl:value-of></td>
-                        <td><xsl:value-of select="fecha/año"></xsl:value-of></td>
-                    </tr>
-                </xsl:for-each>
-        
+                        <tr>
+                            <th>
+                                <xsl:value-of select="@nombre" />
+                            </th>
 
-                    
+                            <td>
+                                <xsl:value-of select="fecha/dia"></xsl:value-of>
+                            </td>
+                            <td>
+                                <xsl:value-of select="fecha/mes"></xsl:value-of>
+                            </td>
+                            <td>
+                                <xsl:value-of select="fecha/año"></xsl:value-of>
+                            </td>
+                        </tr>
+                    </xsl:for-each>
                 </table>
 
 
