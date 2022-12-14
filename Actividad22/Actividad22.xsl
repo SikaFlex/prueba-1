@@ -21,12 +21,12 @@
                     
                     <xsl:foreach select="cancion">
                         <tr>
-                           <td><xsl:value-of select="titulo"></xsl:value-of></td>
-                            <td><xsl:value-of select="artista"></xsl:value-of></td>
-                            <td><xsl:value-of select="pais"></xsl:value-of></td>
-                            <td><xsl:value-of select="disc"></xsl:value-of></td>
-                            <td><xsl:value-of select="precio"></xsl:value-of></td>
-                            <td> <xsl:value-of select="año"></xsl:value-of></td>
+                           <td><xsl:value-of select="titulo"/></td>
+                            <td><xsl:value-of select="artista"/></td>
+                            <td><xsl:value-of select="pais"/></td>
+                            <td><xsl:value-of select="disc"/></td>
+                            <td><xsl:value-of select="precio"/></td>
+                            <td> <xsl:value-of select="año"/></td>
                         </tr>
                     </xsl:foreach>
                 
