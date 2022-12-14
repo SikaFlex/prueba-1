@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<xsl:transform version="1.0" xmlns:xsl=" http://www.w3.org/1999/XSL/Transform">
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
     <xsl:template match="/">
         <html>
             <body>
@@ -21,7 +21,7 @@
                                 <xsl:value-of select="@nombre" />
                             </th>
 
-                            <xsl:for-each select="fecha">
+                            <xsl:for-each select="fecha"/>
 
                                 <td>
                                     <xsl:value-of select="dia"></xsl:value-of>
@@ -44,4 +44,4 @@
             </body>
         </html>
     </xsl:template>
-</xsl:transform>
+</xsl:stylesheet>
