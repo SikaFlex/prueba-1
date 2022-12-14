@@ -11,24 +11,25 @@
                         <th colspan="6">Oferta en CDs</th>
                     </tr>
                     <tr>
-                        <th>titulo</th>
-                        <th>artista</th>
-                        <th>pais</th>
-                        <th>disc</th>
-                        <th>precio</th>
-                        <th>año</th>
+                        <th>Titulo</th>
+                        <th>Artista</th>
+                        <th>Pais</th>
+                        <th>Disco</th>
+                        <th>Precio</th>
+                        <th>Año</th>
                     </tr>
-
-                    <xsl:foreach select="cancion"></xsl:foreach>
-                    <tr>
-                        <xsl:value-of select="titulo"></xsl:value-of>
-                        <xsl:value-of select="artista"></xsl:value-of>
-                        <xsl:value-of select="pais"></xsl:value-of>
-                        <xsl:value-of select="disc"></xsl:value-of>
-                        <xsl:value-of select="precio"></xsl:value-of>
-                        <xsl:value-of select="año"></xsl:value-of>
-                    </tr>
-
+                    <xsl:foreach select="Oferta">
+                    <xsl:foreach select="cancion">
+                        <tr>
+                           <td><xsl:value-of select="titulo"></xsl:value-of></td>
+                            <td><xsl:value-of select="artista"></xsl:value-of></td>
+                            <td><xsl:value-of select="pais"></xsl:value-of></td>
+                            <td><xsl:value-of select="disc"></xsl:value-of></td>
+                            <td><xsl:value-of select="precio"></xsl:value-of></td>
+                            <td> <xsl:value-of select="año"></xsl:value-of></td>
+                        </tr>
+                    </xsl:foreach>
+                </xsl:foreach>
                 </table>
             </body>
         </html>
