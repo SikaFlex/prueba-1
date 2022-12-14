@@ -14,23 +14,27 @@
                         <th>Mes</th>
                         <th>Año</th>
                     </tr>
-                    <xsl:for-each select="locs/loc">
-                        <tr>
-                            <th>
-                                <xsl:value-of select="@nombre" />
-                            </th>
+                    <xsl:complexType>
+                        <xsl:for-each select="locs/loc">
+                            <tr>
+                                <th>
+                                    <xsl:value-of select="@nombre" />
+                                </th>
+                                <xsl:for-each select="fecha">
 
-                            <td>
-                                <xsl:value-of select="fecha/dia"></xsl:value-of>
-                            </td>
-                            <td>
-                                <xsl:value-of select="fecha/mes"></xsl:value-of>
-                            </td>
-                            <td>
-                                <xsl:value-of select="fecha/año"></xsl:value-of>
-                            </td>
-                        </tr>
-                    </xsl:for-each>
+                                    <td>
+                                        <xsl:value-of select="dia"></xsl:value-of>
+                                    </td>
+                                    <td>
+                                        <xsl:value-of select="mes"></xsl:value-of>
+                                    </td>
+                                    <td>
+                                        <xsl:value-of select="año"></xsl:value-of>
+                                    </td>
+                                </xsl:for-each>
+                            </tr>
+                        </xsl:for-each>
+                    </xsl:complexType>
                 </table>
 
 
