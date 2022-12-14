@@ -16,7 +16,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
                     <th><i>Mes</i></th>
                     <th><i>Año</i></th>
                 </tr>
-            <xsl:for-each select="descripcion">
+            <xsl:for-each select="fecha">
                 <tr>
                     <td><xsl:value-of select="@nombre"/></td>
                     <xsl:for-each select="fecha">
