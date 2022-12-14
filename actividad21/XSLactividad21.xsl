@@ -26,7 +26,7 @@
                             <i>Año</i>
                         </th>
                     </tr>
-                    <xsl:complexType>
+                    <xsl:for-each select="locs">
                         <xsl:for-each select="loc">
                             <tr>
                                 <td>
@@ -45,7 +45,8 @@
                                 </xsl:for-each>
                             </tr>
                         </xsl:for-each>
-                    </xsl:complexType>
+                    </xsl:for-each>
+
                 </table>
             </body>
         </html>
