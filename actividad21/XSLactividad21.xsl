@@ -4,7 +4,6 @@
     xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
     <xsl:template match="/">
-<xsl:complexType>
 
 
         <html>
@@ -31,7 +30,7 @@
                     </tr>
 
 
-                    <xsl:for-each select="loc">
+                    <xsl:for-each select="loc/descripcion">
                         <tr>
                             <td>
                                 <xsl:value-of select="@nombre" />
@@ -54,7 +53,7 @@
                 </table>
             </body>
         </html>
-</xsl:complexType>
+
 
     </xsl:template>
 </xsl:stylesheet>
