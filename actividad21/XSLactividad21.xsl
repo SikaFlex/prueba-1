@@ -29,26 +29,26 @@
                         </th>
                     </tr>
 
-                    <xsl:complexType>
-                        <xsl:for-each select="loc">
-                            <tr>
+
+                    <xsl:for-each select="loc">
+                        <tr>
+                            <td>
+                                <xsl:value-of select="@nombre" />
+                            </td>
+                            <xsl:for-each select="fecha">
                                 <td>
-                                    <xsl:value-of select="@nombre" />
+                                    <xsl:value-of select="dia" />
                                 </td>
-                                <xsl:for-each select="fecha">
-                                    <td>
-                                        <xsl:value-of select="dia" />
-                                    </td>
-                                    <td>
-                                        <xsl:value-of select="mes" />
-                                    </td>
-                                    <td>
-                                        <xsl:value-of select="año" />
-                                    </td>
-                                </xsl:for-each>
-                            </tr>
-                        </xsl:for-each>
-                    </xsl:complexType>
+                                <td>
+                                    <xsl:value-of select="mes" />
+                                </td>
+                                <td>
+                                    <xsl:value-of select="año" />
+                                </td>
+                            </xsl:for-each>
+                        </tr>
+                    </xsl:for-each>
+
 
                 </table>
             </body>
