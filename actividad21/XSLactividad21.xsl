@@ -3,7 +3,7 @@
 <xsl:stylesheet version="1.0"
 xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
-<xsl:template match="locs">
+<xsl:template match="locs/loc">
     <html>
         <body>
             <table border="1">
@@ -16,7 +16,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
                     <th><i>Mes</i></th>
                     <th><i>Año</i></th>
                 </tr>
-            <xsl:for-each select="loc">
+            <xsl:for-each select="loc/descripcion">
                 <tr>
                     <td><xsl:value-of select="@nombre"/></td>
                     <xsl:for-each select="fecha">
