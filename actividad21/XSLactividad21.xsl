@@ -30,7 +30,9 @@
                     </tr>
 
 
-                    <xsl:for-each select="locs/loc/descripcion">
+                    <xsl:for-each select="locs/loc">
+                    <xsl:for-each select="descripcion">
+
                         <tr>
                             <td>
                                 <xsl:value-of select="@nombre" />
@@ -47,6 +49,7 @@
                                 </td>
                             </xsl:for-each>
                         </tr>
+                    </xsl:for-each>
                     </xsl:for-each>
 
 
