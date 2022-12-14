@@ -18,19 +18,31 @@
                         <th>Precio</th>
                         <th>Año</th>
                     </tr>
-                    <xsl:for-each select="Oferta">
-                    <xsl:for-each select="cancion">
-                        <tr>
-                           <td><xsl:value-of select="titulo"/></td>
-                            <td><xsl:value-of select="artista"/></td>
-                            <td><xsl:value-of select="pais"/></td>
-                            <td><xsl:value-of select="disc"/></td>
-                            <td><xsl:value-of select="precio"/></td>
-                            <td> <xsl:value-of select="año"/></td>
-                        </tr>
-                    </xsl:for-each>
-                </xsl:for-each>
-                
+                    
+                        <xsl:for-each select="cancion">
+                            <tr>
+                                <td>
+                                    <xsl:value-of select="titulo" />
+                                </td>
+                                <td>
+                                    <xsl:value-of select="artista" />
+                                </td>
+                                <td>
+                                    <xsl:value-of select="pais" />
+                                </td>
+                                <td>
+                                    <xsl:value-of select="disc" />
+                                </td>
+                                <td>
+                                    <xsl:value-of select="precio" />
+                                </td>
+                                <td>
+                                    <xsl:value-of select="año" />
+                                </td>
+                            </tr>
+                        </xsl:for-each>
+                    
+
                 </table>
             </body>
         </html>
