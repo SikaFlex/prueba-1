@@ -21,22 +21,21 @@
                                 <xsl:value-of select="@nombre" />
                             </th>
 
-                            <xsl:for-each select="fecha"/>
+                            <xsl:for-each select="fecha" />
 
-                                <td>
-                                    <xsl:value-of select="dia"></xsl:value-of>
-                                </td>
-                                <td>
-                                    <xsl:value-of select="mes"></xsl:value-of>
-                                </td>
-                                <td>
+                            <td>
+                                <xsl:value-of select="dia" />
+                            </td>
+                            <td>
+                                <xsl:value-of select="mes"/>
+                            </td>
+                            <td>
 
-                                    <xsl:value-of select="año"></xsl:value-of>
-                                </td>
-                            </xsl:for-each>
-
+                                <xsl:value-of select="año"/>
+                            </td>
                         </tr>
                     </xsl:for-each>
+
 
                 </table>
 
