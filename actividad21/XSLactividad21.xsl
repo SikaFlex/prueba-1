@@ -15,7 +15,7 @@
                         <th>Año</th>
                     </tr>
 
-                    <xsl:for-each select="locs/loc">
+                    <xsl:for-each select="loc">
                         <tr>
                             <th>
                                 <xsl:value-of select="@nombre" />
