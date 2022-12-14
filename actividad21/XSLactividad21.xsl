@@ -4,6 +4,7 @@
     xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
     <xsl:template match="/">
+<xsl:complexType>
 
 
         <html>
@@ -53,6 +54,7 @@
                 </table>
             </body>
         </html>
+</xsl:complexType>
 
     </xsl:template>
 </xsl:stylesheet>
