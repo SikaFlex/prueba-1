@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE factura SYSTEM "Actividad23.dtd">
+<factura>
+    <NumFact>FACTURA nº999</NumFact>
+    <DatEmp>
+        <NomEmp>Equipos Digitales S.L</NomEmp>
+        <calle>Av.Valladolid</calle>
+        <poblacion>Madrid 28015</poblacion>
+        <cif>Q-9876543</cif>
+        <tel>91.777.66.88</tel>
+        <fax>91.777.66.99</fax>
+        <DatAlbaran>
+            <fecha>12-01-2005</fecha>
+            <pedido>nº 731</pedido>
+            <FormPago>EFECTIVO</FormPago>
+        </DatAlbaran>
+    </DatEmp>
+
+    <DatClient>
+        <NumClient>879</NumClient>
+        <NomClient>Dario Bueno Gutierrez</NomClient>
+        <DireccionEnv>Av.Oporto nº7 4ºd</DireccionEnv>
+        <poblacion>Madrid</poblacion>
+        <CP>28043</CP>
+        <provincia>Madrid</provincia>
+    </DatClient>
+
+    <DatFactura>
+        <dat>
+            <ref>MII93000F/8</ref>
+            <desc>MICRO PENTIUM IV 3000MHZ FB800</desc>
+            <cant>1</cant>
+            <prec>230 eur.</prec>
+            <iva>16,0</iva>
+            <imp>266,80 eur.</imp>
+        </dat>
+
+        <dat>
+            <ref>MB8QDIP4</ref>
+            <desc>PLACA BASE QDI P4</desc>
+            <cant>1</cant>
+            <prec>180 eur.</prec>
+            <iva>16,0</iva>
+            <imp>208,80</imp>
+        </dat>
+
+        <dat>
+            <ref>MEDD512M32</ref>
+            <desc>DIMM DDR 512MB 3200</desc>
+            <cant>2</cant>
+            <prec>40 eur.</prec>
+            <iva>16,0</iva>
+            <imp>92,80</imp>
+        </dat>
+
+        <dat>
+            <ref>HD250GSA7</ref>
+            <desc>DISCO DURO 250 S-ATA 7200</desc>
+            <cant>4</cant>
+            <prec>120 eur.</prec>
+            <iva>16,0</iva>
+            <imp>556,80</imp>
+        </dat>
+        <total>
+            <base>970.00</base>
+            <iva>16.0</iva>
+            <C_iva>155.20 eur</C_iva>
+            <Total>TOTAL FACTURA: 1125,20 eur</Total>
+        </total>
+
+
+    </DatFactura>
+
+
+</factura>
