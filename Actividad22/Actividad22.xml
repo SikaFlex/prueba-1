@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE Oferta SYSTEM "Actividad22.dtd">
+<?xml-stylesheet href="actividad22.xsl" type="text/xsl"?>
 
 <Oferta>
 
