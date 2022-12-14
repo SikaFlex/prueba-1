@@ -30,7 +30,7 @@
                     </tr>
 
 
-                    <xsl:for-each select="loc">
+                    <xsl:for-each select="locs/loc">
                         <tr>
                             <td>
                                 <xsl:value-of select="@nombre" />
