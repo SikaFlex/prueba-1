@@ -4,8 +4,8 @@
     xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
     <xsl:template match="/">
-    <xsl:complexType>
-    
+
+
         <html>
             <body>
                 <table border="1">
@@ -29,30 +29,30 @@
                         </th>
                     </tr>
 
-
-                    <xsl:for-each select="loc">
-                        <tr>
-                            <td>
-                                <xsl:value-of select="@nombre" />
-                            </td>
-                            <xsl:for-each select="fecha">
+                    <xsl:complexType>
+                        <xsl:for-each select="loc">
+                            <tr>
                                 <td>
-                                    <xsl:value-of select="dia" />
+                                    <xsl:value-of select="@nombre" />
                                 </td>
-                                <td>
-                                    <xsl:value-of select="mes" />
-                                </td>
-                                <td>
-                                    <xsl:value-of select="año" />
-                                </td>
-                            </xsl:for-each>
-                        </tr>
-                    </xsl:for-each>
-
+                                <xsl:for-each select="fecha">
+                                    <td>
+                                        <xsl:value-of select="dia" />
+                                    </td>
+                                    <td>
+                                        <xsl:value-of select="mes" />
+                                    </td>
+                                    <td>
+                                        <xsl:value-of select="año" />
+                                    </td>
+                                </xsl:for-each>
+                            </tr>
+                        </xsl:for-each>
+                    </xsl:complexType>
 
                 </table>
             </body>
         </html>
-    </xsl:complexType>
+
     </xsl:template>
 </xsl:stylesheet>
