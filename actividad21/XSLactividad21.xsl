@@ -20,18 +20,20 @@
                                 <th>
                                     <xsl:value-of select="@nombre" />
                                 </th>
-                                <xsl:for-each select="fecha">
+                                <xsl:complexType>
+                                    <xsl:for-each select="fecha">
 
-                                    <td>
-                                        <xsl:value-of select="dia"></xsl:value-of>
-                                    </td>
-                                    <td>
-                                        <xsl:value-of select="mes"></xsl:value-of>
-                                    </td>
-                                    <td>
-                                        <xsl:value-of select="año"></xsl:value-of>
-                                    </td>
-                                </xsl:for-each>
+                                        <td>
+                                            <xsl:value-of select="dia"></xsl:value-of>
+                                        </td>
+                                        <td>
+                                            <xsl:value-of select="mes"></xsl:value-of>
+                                        </td>
+                                        <td>
+                                            <xsl:value-of select="año"></xsl:value-of>
+                                        </td>
+                                    </xsl:for-each>
+                                </xsl:complexType>
                             </tr>
                         </xsl:for-each>
                     </xsl:complexType>
