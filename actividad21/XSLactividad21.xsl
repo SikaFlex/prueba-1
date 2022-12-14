@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
+<xsl:transform version="1.0" xmlns:xsl=" http://www.w3.org/1999/XSL/Transform">
     <xsl:template match="/">
         <html>
             <body>
@@ -15,7 +15,7 @@
                         <th>Año</th>
                     </tr>
 
-                    <xsl:for-each select="loc">
+                    <xsl:for-each select="locs/loc">
                         <tr>
                             <th>
                                 <xsl:value-of select="@nombre" />
@@ -44,4 +44,4 @@
             </body>
         </html>
     </xsl:template>
-</xsl:stylesheet>
+</xsl:transform>
