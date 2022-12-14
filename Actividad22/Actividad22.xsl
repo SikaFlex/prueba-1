@@ -18,7 +18,8 @@
                         <th>precio</th>
                         <th>año</th>
                     </tr>
-                    <xsl:foreach select="cancion"></xsl:foreach>
+
+                    <xsl:foreach select="Oferta/cancion"></xsl:foreach>
                     <tr>
                         <xsl:value-of select="titulo"></xsl:value-of>
                         <xsl:value-of select="artista"></xsl:value-of>

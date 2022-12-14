@@ -19,7 +19,7 @@
                     </tr>
                     <tr>
                         <th>
-                            Día
+                            Dia
                         </th>
                         <th>
                             Mes
