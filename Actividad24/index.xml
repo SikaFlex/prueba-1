@@ -1,0 +1,58 @@
+<Oferta xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="Actividad24.xsd">
+
+    <cancion>
+        <titulo>Still got the blues</titulo>
+        <artista>Gary Moore</artista>
+        <pais>UK</pais>
+        <disc>Virgin records</disc>
+        <precio>10.20</precio>
+        <año>1990</año>
+    </cancion>
+
+    <cancion>
+        <titulo>One night only</titulo>
+        <artista>Bee Gees</artista>
+        <pais>UK</pais>
+        <disc>Polydor</disc>
+        <precio>10.90</precio>
+        <año>1998</año>
+    </cancion>
+
+    <cancion>
+        <titulo>When a man loves a woman</titulo>
+        <artista>Precy Sledge</artista>
+        <pais>USA</pais>
+        <disc>Atlantic</disc>
+        <precio>8.70</precio>
+        <año>1987</año>
+    </cancion>
+
+    <cancion>
+        <titulo>Big Willie Style</titulo>
+        <artista>Will Smith</artista>
+        <pais>USA</pais>
+        <disc>Columbia</disc>
+        <precio>9.90</precio>
+        <año>1997</año>
+    </cancion>
+
+    <cancion>
+        <titulo>La cancion de Juan Perro</titulo>
+        <artista>Radio Futura</artista>
+        <pais>ESP</pais>
+        <disc>Sony music-Ariola</disc>
+        <precio>9.90</precio>
+        <año>1987</año>
+    </cancion>
+
+    <cancion>
+        <titulo>The dock of the bay</titulo>
+        <artista>Otis Redding</artista>
+        <pais>USA</pais>
+        <disc>Atlantic</disc>
+        <precio>7.90</precio>
+        <año>1987</año>
+    </cancion>
+
+</Oferta>
