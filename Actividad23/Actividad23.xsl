@@ -14,22 +14,22 @@
                         <tr>
                             <xsl:for-each select="DatEmp">
                                 <tr>
-                                    <td>
+                                    <td colspan="3">
                                         <xsl:value-of select="NomEmp"></xsl:value-of>
                                     </td>
-                                    <td>
+                                    <td colspan="3">
                                         <xsl:value-of select="calle"></xsl:value-of>
                                     </td>
-                                    <td>
+                                    <td colspan="3">
                                         <xsl:value-of select="poblacion"></xsl:value-of>
                                     </td>
-                                    <td>
+                                    <td colspan="3">
                                         <xsl:value-of select="cif"></xsl:value-of>
                                     </td>
-                                    <td>
+                                    <td colspan="3">
                                         <xsl:value-of select="tel"></xsl:value-of>
                                     </td>
-                                    <td>
+                                    <td colspan="3">
                                         <xsl:value-of select="fax"></xsl:value-of>
                                     </td>
                                 </tr>
@@ -38,13 +38,13 @@
                                 <tr>
 
 
-                                    <td>
+                                    <td colspan="3">
                                         <xsl:value-of select="fecha"></xsl:value-of>
                                     </td>
-                                    <td>
+                                    <td colspan="3">
                                         <xsl:value-of select="pedido"></xsl:value-of>
                                     </td>
-                                    <td>
+                                    <td colspan="3">
                                         <xsl:value-of select="FormPago"></xsl:value-of>
                                     </td>
 
