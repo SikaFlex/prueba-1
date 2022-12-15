@@ -18,8 +18,7 @@
                         <th>Precio</th>
                         <th>Año</th>
                     </tr>
-                    <xsl:for-each select="Oferta">
-                        <xsl:for-each select="cancion">
+                    <xsl:for-each select="Oferta/cancion">
                             <tr>
                                 <td>
                                     <xsl:value-of select="titulo" />
@@ -40,7 +39,6 @@
                                     <xsl:value-of select="año" />
                                 </td>
                             </tr>
-                        </xsl:for-each>
                     </xsl:for-each>
 
 

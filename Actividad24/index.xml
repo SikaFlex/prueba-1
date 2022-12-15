@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="index.xsl" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <?xml-stylesheet href="index.xsl" type="text/xsl"?>
+
 <Oferta>
 
     <cancion>
