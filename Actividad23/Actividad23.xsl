@@ -36,15 +36,13 @@
                             </xsl:for-each>
                             <xsl:for-each select="DatAlbaran">
                                 <tr>
-
-
-                                    <td colspan="3">
+                                    <td colspan="3" rowspan="1">
                                         <xsl:value-of select="fecha"></xsl:value-of>
                                     </td>
-                                    <td colspan="3">
+                                    <td colspan="3" rowspan="1">
                                         <xsl:value-of select="pedido"></xsl:value-of>
                                     </td>
-                                    <td colspan="3">
+                                    <td colspan="3" rowspan="1">
                                         <xsl:value-of select="FormPago"></xsl:value-of>
                                     </td>
 
