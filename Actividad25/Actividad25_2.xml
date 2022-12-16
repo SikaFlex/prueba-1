@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE factura SYSTEM "actividad25.dtd">
 <?xml-stylesheet type="text/xsl" href="actividad25.xsl"?>
+<!DOCTYPE factura SYSTEM "actividad25.dtd">
 
     <factura>
         <NumFact>FACTURA nº999</NumFact>
@@ -67,7 +67,7 @@
                 <base>970.00</base>
                 <iva>16.0</iva>
                 <C_iva>155.20 eur</C_iva>
-                <Total>TOTAL FACTURA: 1125,20 eur</Total>
+                <Total>1125,20 eur</Total>
             </total>
     
     
