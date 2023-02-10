@@ -19,15 +19,15 @@
         <title>EL Pais</title>
         <script
           src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
-        <link rel="shortcut icon" href="logo/ico.ico" />
+          <link rel="shortcut icon" href="logo/ico.ico" />
       </head>
       <body>
         <header>
-          <div class="text-center">
+          <div class="text-center" >
             <a href="https://elpais.com/">
-              <img src="logo/logo.png" alt="" />
-            </a>
-          </div>
+          <img src="logo/logo.png" alt="" />
+        </a>
+        </div>
           <xsl:for-each select="rss/channel">
             <h6 class="text-center">
               <xsl:value-of select="description"></xsl:value-of>
@@ -61,8 +61,8 @@
 
           <div class="card d-inline-flex p-3" style="width: 30rem;">
             <a href="{link}">
-              <img src="{media:content/@url}" class="card-img-top" alt="Foto de la noticia" />
-            </a>
+            <img src="{media:content/@url}" class="card-img-top" alt="Foto de la noticia" />
+          </a>
             <div class="card-body">
               <h5 class="card-title">
                 <xsl:value-of select="title"></xsl:value-of>
