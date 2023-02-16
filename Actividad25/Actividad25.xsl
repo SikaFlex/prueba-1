@@ -27,11 +27,11 @@ factura:
       poblacion: <xsl:value-of select="poblacion"></xsl:value-of>
       CP: <xsl:value-of select="CP"></xsl:value-of>
       provincia: <xsl:value-of select="provincia"></xsl:value-of>
+</xsl:for-each>
 
-
-DatFactura: <xsl:for-each select="DatFactura">
-    -dat:<xsl:for-each select="dat">
-       ref:<xsl:value-of select="ref"></xsl:value-of>
+DatFactura: <xsl:for-each select="DatFactura" >
+   <xsl:for-each select="dat" >
+    -  ref:<xsl:value-of select="ref"></xsl:value-of>
        desc:<xsl:value-of select="desc"></xsl:value-of>
        cant:<xsl:value-of select="cant"></xsl:value-of>
        prec:<xsl:value-of select="prec"></xsl:value-of>
@@ -44,7 +44,6 @@ DatFactura: <xsl:for-each select="DatFactura">
        iva: <xsl:value-of select="iva"></xsl:value-of>
        C_iva: <xsl:value-of select="C_iva"></xsl:value-of>
        Total: <xsl:value-of select="Total"></xsl:value-of>
- </xsl:for-each>
 </xsl:for-each>
 </xsl:for-each>
 </xsl:for-each>
