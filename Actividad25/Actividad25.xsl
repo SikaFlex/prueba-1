@@ -20,7 +20,7 @@ factura:
     </xsl:for-each>
     </xsl:for-each>
 
-    DatClient: <xsl:for-each select="DatClient">
+    Datos Clientes: <xsl:for-each select="DatClient">
       NumClient: <xsl:value-of select="NumClient"></xsl:value-of>
       NomClient: <xsl:value-of select="NomClient"></xsl:value-of>
       DireccionEnv: <xsl:value-of select="DireccionEnv"></xsl:value-of>
