@@ -188,3 +188,55 @@
         </sala>
     </clases>
 </academia>
+
+
+<xsl:for-each select="servicios/servicio">
+                            <tr>
+                                <td>
+                                    <p>
+                                        <xsl:value-of select="servicio"></xsl:value-of>
+                                    </p>
+
+                                </td>
+                                <xsl:for-each select="precio">
+                                    <td>
+                                        <xsl:for-each select="sesion">
+                                            <p>
+                                                <xsl:value-of select="hora"></xsl:value-of>
+                                            </p>
+                                            <p> 5 sesiones: <xsl:value-of select="precio1"></xsl:value-of>
+                                            </p>
+                                            <p> 10 sesiones: <xsl:value-of select="precio2"></xsl:value-of>
+                                            </p>
+                                        </xsl:for-each>
+                                    </td>
+                                    <td>
+                                        <p> Al mes: <xsl:value-of select="mes"></xsl:value-of>
+                                        </p>
+                                    </td>
+                                </xsl:for-each>
+                                <td>
+                                    <p>
+                                        <xsl:value-of select="reservas"></xsl:value-of>
+                                    </p>
+                                </td>
+                                <td>
+                                    <xsl:for-each select="horario">
+                                        <p>
+                                            <xsl:value-of select="hora"></xsl:value-of>
+                                        </p>
+
+                                        <p>
+                                            <xsl:value-of select="dias"></xsl:value-of>
+                                        </p>
+                                    </xsl:for-each>
+                                </td>
+                                <td>
+                                <xsl:for-each select="empleados"></xsl:for-each>
+                                    <p>
+                                        <xsl:value-of select="empleado"></xsl:value-of>
+                                    </p>
+                                </td>
+
+                            </tr>
+                        </xsl:for-each>

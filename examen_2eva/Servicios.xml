@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="Servicios.xsl" type="text/xsl"?>
+<clinica>
+    <servicios>
+        <servicio>
+            Fisioterapia
+        </servicio>
+        <precio>
+
+            <hora name="sesion">
+                35€/h
+            </hora>
+            <precio1 name="sesion">
+                5 sesiones: 160€
+            </precio1>
+            <precio2 name="sesion">
+                10 sesiones: 300€
+            </precio2>
+            <mes name="almes"></mes>
+
+
+        </precio>
+        <reservas>
+            Reserva previa
+        </reservas>
+        <horario>
+            <hora>9:00h a 13:00h</hora>
+            <hora>15:00h a 19:00h</hora>
+            <dias>lunes</dias>
+            <dias>viernes</dias>
+
+        </horario>
+        <empleados>
+            <empleado>Chus</empleado>
+            <empleado>Marga</empleado>
+            <empleado>Silvia</empleado>
+
+        </empleados>
+    </servicios>
+
+
+    <servicios>
+        <servicio>
+            Podologia
+        </servicio>
+
+        <precio>
+
+            <hora name="sesion">
+                25€/h
+            </hora>
+
+            <precio1 name="sesion">
+                5 sesiones: 100€
+            </precio1>
+            <precio2 name="sesion">
+                10 sesiones: 190€
+            </precio2>
+            <mes name="almes">
+
+            </mes>
+        </precio>
+        <reservas>
+            Reserva previa
+        </reservas>
+        <horario>
+            <hora>9:00h a 13:00h</hora>
+            <hora> 15:00h a 19:00h</hora>
+            <dias>lunes</dias>
+            <dias>viernes</dias>
+        </horario>
+        <empleados>
+            <empleado>Joana</empleado>
+        </empleados>
+    </servicios>
+
+    <servicios>
+        <servicio>
+            Psicologia
+        </servicio>
+
+        <precio>
+
+            <hora name="sesion">
+                50€/h
+            </hora>
+
+            <precio1 name="sesion">
+                5 sesiones: 220€
+            </precio1>
+            <precio2 name="sesion">
+                10 sesiones: 400€
+            </precio2>
+
+            <mes name="almes">
+
+            </mes>
+        </precio>
+        <reservas>
+            Reserva previa
+        </reservas>
+        <horario>
+            <hora>9:00h a 13:00h </hora>
+            <hora> 15:00h a 19:00h</hora>
+            <dias>lunes</dias>
+            <dias>viernes</dias>
+
+
+        </horario>
+        <empleados>
+            <empleado> Aina</empleado>
+        </empleados>
+    </servicios>
+
+    <servicios>
+        <servicio>
+            Yoga
+        </servicio>
+
+        <precio>
+
+            <hora name="sesion">
+            </hora>
+            <precio1 name="sesion">
+            </precio1>
+            <precio2 name="sesion">
+            </precio2>
+
+            <mes name="almes">
+                25€ al mes
+            </mes>
+        </precio>
+        <reservas>
+            Max: 20 personas
+        </reservas>
+        <horario>
+            <hora>11:00h a 12:30h</hora>
+            <hora> 17:00h a 18:30h</hora>
+            <dias>lunes </dias>
+            <dias>miercoles</dias>
+            <dias>viernes</dias>
+
+        </horario>
+        <empleados>
+            <empleado>Biel</empleado>
+            <empleado>Alex</empleado>
+        </empleados>
+    </servicios>
+
+
+    <servicios>
+        <servicio>
+            Pilates
+        </servicio>
+
+        <precio>
+
+            <hora name="sesion">
+            </hora>
+            <precio1 name="sesion">
+            </precio1>
+            <precio2 name="sesion">
+            </precio2>
+
+            <mes name="almes">
+                30€ al mes
+            </mes>
+        </precio>
+        <reservas>
+            Max: 25 personas
+        </reservas>
+        <horario>
+            <hora>10:00h a 11:30h</hora>
+            <hora>16:00h a 17:30h</hora>
+            <dias> martes </dias>
+            <dias> jueves </dias>
+            <dias> viernes </dias>
+
+        </horario>
+        <empleados>
+            <empleado>Tolo</empleado>
+        </empleados>
+    </servicios>
+
+
+    <servicios>
+        <servicio>
+            Meditacion
+        </servicio>
+
+        <precio>
+
+            <hora name="sesion">
+            </hora>
+            <precio1 name="sesion">
+            </precio1>
+            <precio2 name="sesion">
+            </precio2>
+
+            <mes name="almes">
+                35€ al mes
+            </mes>
+        </precio>
+        <reservas>
+            Max: 10 personas
+        </reservas>
+        <horario>
+            <hora>10:00h a 11:30h</hora>
+            <hora>16:00h a 17:30h</hora>
+            <dias>lunes</dias>
+            <dias>martes</dias>
+            <dias>miércoles</dias>
+            <dias>jueves</dias>
+            <dias>viernes</dias>
+
+        </horario>
+        <empleados>
+            <empleado>Biel</empleado>
+            <empleado> Alex</empleado>
+        </empleados>
+    </servicios>
+
+
+</clinica>

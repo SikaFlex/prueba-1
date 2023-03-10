@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="Academia.xsl" type="text/xsl"?>
+<academia>
+
+    <clases>
+        <baile>
+
+        </baile>
+        <precio>
+            <cuota>
+            </cuota>
+            <moneda>
+            </moneda>
+        </precio>
+        <plaza>
+
+        </plaza>
+        <fecha-in>
+
+        </fecha-in>
+        <fecha-fin>
+
+        </fecha-fin>
+        <dia>
+        
+        </dia>
+        <nombre-profesor>
+        
+        </nombre-profesor>
+        <sala>
+        
+        </sala>
+    </clases>
+</academia>
