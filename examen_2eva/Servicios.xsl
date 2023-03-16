@@ -17,10 +17,10 @@
 
                         <tr>
                             <th>Servicio</th>
-                            <th >Precio</th>
+                            <th>Precio</th>
                             <th>Tipo de reserva</th>
-                            <th >Horario </th>
-                            <th >Profes@r</th>
+                            <th>Horario </th>
+                            <th>Profes@r</th>
                         </tr>
                         <xsl:for-each select="clinica/servicios">
                             <tr>
@@ -32,16 +32,20 @@
                                 </td>
                                 <xsl:for-each select="precio">
                                     <td>
-                                       
-                                            <p>
-                                                <xsl:value-of select="hora"></xsl:value-of>
-                                            </p>
-                                            <p><xsl:value-of select="precio1"></xsl:value-of>
-                                            </p>
-                                            <p><xsl:value-of select="precio2"></xsl:value-of>
-                                            </p>
-                                            <p><xsl:value-of select="mes"></xsl:value-of></p>
-                                       
+
+                                        <p>
+                                            <xsl:value-of select="hora"></xsl:value-of>
+                                        </p>
+                                        <p>
+                                            <xsl:value-of select="precio1"></xsl:value-of>
+                                        </p>
+                                        <p>
+                                            <xsl:value-of select="precio2"></xsl:value-of>
+                                        </p>
+                                        <p>
+                                            <xsl:value-of select="mes"></xsl:value-of>
+                                        </p>
+
                                     </td>
 
                                 </xsl:for-each>
@@ -50,24 +54,24 @@
                                         <xsl:value-of select="reservas"></xsl:value-of>
                                     </p>
                                 </td>
-                                    <td>
+                                <td>
                                     <xsl:for-each select="horario">
-                                     <p>
-                                        
+                                        <p>
+
                                             <xsl:value-of select="."></xsl:value-of>
-                                        
+
                                         </p>
-                    
-                                         
+
+
                                     </xsl:for-each>
                                 </td>
                                 <td>
-                                <xsl:for-each select="empleados">
-                                    
-                                    <p>
-                                        <xsl:value-of select="."></xsl:value-of>
-                                    </p>
-                                   
+                                    <xsl:for-each select="empleados">
+
+                                        <p>
+                                            <xsl:value-of select="."></xsl:value-of>
+                                        </p>
+
                                     </xsl:for-each>
                                 </td>
 
